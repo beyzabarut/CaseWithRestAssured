@@ -45,6 +45,4 @@ public class PetHelper extends RestAssuredRequestSpecification {
         deletePetRequest.setPetId(petId);
         return delete("pet/" + petId, null, null, null);
     }
-
-
 }
